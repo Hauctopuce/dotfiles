@@ -38,4 +38,31 @@ call vundle#end()
 
 filetype plugin indent on	"required
 
+"  Basic Vim Configuration
+" =========================
+
 syntax on
+
+" Printing line number on the left margin
+set nu
+
+" Setting the tab as 4 spaces
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" Settings of the backspace key
+set backspace=eol,start,indent
+
+" Automatic code indentation
+set autoindent
+
+" Underline the current line on which the cursor is
+set cursorline
+
+" Highlighting the characters over the 90th column
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%91v.\+/
+
+" Configuration for Lightline
+set laststatus=2
