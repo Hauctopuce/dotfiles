@@ -1,0 +1,28 @@
+! #=======================#
+! |  Hybrid Color Scheme  |
+! | --------------------- |
+! |  from Mayccoll/Gogh   |
+! #=======================#
+
+#define c00 	#282a2e
+#define c01	#a54242
+#define c02	#8c9440
+#define c03	#de935f
+#define c04	#5f819d
+#define c05	#85678f
+#define c06	#5e8d87
+#define c07	#969896
+
+#define c08	#373b41
+#define c09	#cc6666
+#define c10	#b5bd68
+#define c11	#f0c674
+#define c12	#81a2be
+#define c13	#b294bb
+#define c14	#8abeb7
+#define c15	#c5c8c6
+
+#define background_color	#141414
+#define foreground_color	#94a3a5
+#define cursor_color		foreground_color
+#define colorscheme		"Hybrid"

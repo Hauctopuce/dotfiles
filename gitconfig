@@ -1,0 +1,9 @@
+[user]
+	name = Hauctopuce
+	email = hauctopuce@protonmail.com
+
+[color "status"]
+	untracked = 	red
+	changed =	yellow
+	added =		green
+	
