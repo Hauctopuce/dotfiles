@@ -27,6 +27,9 @@ Plugin 'itchyny/lightline.vim'
 " Automatic bracket/quotes/parenthesis closing
 Plugin 'raimondi/delimitmate'
 
+" Latex suite plugin
+Plugin 'vim-latex/vim-latex'
+
 " Language relative plugins:
 " ===========================
 
@@ -51,6 +54,8 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
+set mouse=a
+
 " Settings of the backspace key
 set backspace=eol,start,indent
 
@@ -71,7 +76,7 @@ let g:netrw_liststyle = 3
 let g:netrw_banner = 0
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
-let g:netrw_winsize = 25
+let g:netrw_winsize = 15
 augroup ProjectDrawer
 	autocmd!
 	autocmd VimEnter * :Vexplore
