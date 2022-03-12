@@ -18,3 +18,12 @@ fi
 if [[ ! "$SSH_AUTH_SOCK" ]]; then
 	source "$XDG_RUNTIME_DIR/ssh-agent.env" > /dev/null
 fi
+
+ssh-add -l > /dev/null
+
+if [ $? -eq 1 ]
+then
+	ssh-add "$HOME/.ssh/id_ed25519"
+else
+	echo "SSH Keys loaded"
+fi
