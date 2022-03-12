@@ -11,7 +11,7 @@ done
 unset conf
 unset ZSH_CONFIG_DIR
 
-# Start zshrc automatically or fetches an already running instance
+# Start ssh-agent automatically or fetches an already running instance
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then
 	ssh-agent -t 1h > "$XDG_RUNTIME_DIR/ssh-agent.env"
 fi
