@@ -1,4 +1,8 @@
+! =========================
+!  Hauctopuce s Xresources
+! =========================
 
+! Charging Color Scheme
 #include "./etc/Xresources.d/colorschemes/Argonaut"
 
 *color0:		c00
@@ -27,3 +31,6 @@
 
 URxvt.font:xft:Hack:style=Regular:size=11
 URxvt*scrollBar:	false
+
+! Cursor Configuration
+Xcursor.size:	32
