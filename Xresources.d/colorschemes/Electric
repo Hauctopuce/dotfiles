@@ -1,0 +1,28 @@
+! #=========================#
+! |  Electric Color Scheme  |
+! | ----------------------- |
+! |     from Hauctopuce		|
+! #=========================#
+
+#define c00 #050502
+#define c01 #DBA507
+#define c02 #E6E616
+#define c03 #F0F060
+#define c04 #8EC7D2
+#define c05 #0D6986
+#define c06 #07485B
+#define c07 #F9F9BF
+
+#define c08 #181800
+#define c09 #F9C93E
+#define c10 #EFEF5A
+#define c11 #F6F6A0
+#define c12 #B0D8E0
+#define c13 #17B6E9
+#define c14 #10A3CE
+#define c15 #FFFFFF
+
+#define background_color	c00
+#define foreground_color	c15
+#define cursor_color		#8EC7D2
+#define colorscheme			"Electric"

@@ -3,7 +3,7 @@
 ! =========================
 
 ! Charging Color Scheme
-#include "./etc/Xresources.d/colorschemes/Argonaut"
+#include "./etc/Xresources.d/colorschemes/Eclipse"
 
 *color0:		c00
 *color1:		c01
@@ -26,6 +26,10 @@
 
 *background:	background_color
 *foreground:	foreground_color
+*cursorColor:	cursor_color
+
+*primary:	c10
+*secondary:	c14
 
 ! URxvt configuration
 
@@ -34,3 +38,5 @@ URxvt*scrollBar:	false
 
 ! Cursor Configuration
 Xcursor.size:	32
+Xcursor.background: cursor_color
+

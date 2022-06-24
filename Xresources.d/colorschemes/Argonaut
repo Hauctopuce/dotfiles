@@ -4,7 +4,7 @@
 ! |  from Mayccoll/Gogh   |
 ! #=======================#
 
-#define c00 	#232323
+#define c00 #232323
 #define c01	#ff000f
 #define c02	#8ce10b
 #define c03	#ffb900
