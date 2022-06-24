@@ -3,7 +3,7 @@
 	email = hauctopuce@protonmail.com
 
 [color "status"]
-	untracked = 	red
-	changed =	yellow
-	added =		green
+	untracked = 	2
+	changed =		3
+	added =			5
 	
